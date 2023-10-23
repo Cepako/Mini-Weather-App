@@ -1,0 +1,56 @@
+.display {
+  display: none;
+  text-align: center;
+  &__foto {
+    height: 50%;
+    width: 50%;
+  }
+  h1 {
+    font-size: 65px;
+    font-weight: 400;
+    cursor: default;
+  }
+  h2 {
+    font-size: 45px;
+    font-weight: 300;
+    cursor: default;
+  }
+  .weatherConditions {
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+    .humidity {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 29%;
+        height: 29%;
+      }
+      p {
+        margin: 0 10px;
+        span {
+          font-size: 25px;
+        }
+      }
+    }
+    .windSpeed {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 20%;
+        height: 20%;
+      }
+      p {
+        margin: 0 10px;
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+.display.active {
+  display: block;
+}

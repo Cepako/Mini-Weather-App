@@ -1,0 +1,39 @@
+.interface {
+  margin: 30px auto;
+  display: flex;
+  &__input {
+    width: 70%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 23px;
+    margin: 0 10px 0 30px;
+    input {
+      height: 100%;
+      width: 100%;
+      padding: 15px;
+      font-size: 20px;
+      border-radius: 23px;
+      border: none;
+      outline: none;
+      color: #222;
+    }
+  }
+  &__search {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 22px;
+      height: 22px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

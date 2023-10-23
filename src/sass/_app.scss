@@ -1,0 +1,28 @@
+body {
+  background-color: #222;
+  color: white;
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 405px;
+  @media (max-width: 800px) {
+    width: 350px;
+  }
+  padding: 20px 0;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right top,
+    #005be3,
+    #008afe,
+    #00affd,
+    #00cfec,
+    #12ebd8
+  );
+}
